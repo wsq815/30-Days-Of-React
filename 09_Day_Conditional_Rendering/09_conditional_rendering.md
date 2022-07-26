@@ -740,7 +740,7 @@ class App extends React.Component {
         <Header data={data} />
 
         <Main
-          techs={techs}
+          techs={this.state.techs}
           handleTime={this.handleTime}
           greetPeople={this.greetPeople}
           loggedIn={this.state.loggedIn}
